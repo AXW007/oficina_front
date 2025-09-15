@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "barbearia-front": {
+    "oficina-front": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/barbearia-front",
+            "outputPath": "dist/oficina-front",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "barbearia-front:build:production"
+              "buildTarget": "oficina-front:build:production"
             },
             "development": {
-              "buildTarget": "barbearia-front:build:development"
+              "buildTarget": "oficina-front:build:development"
             }
           },
           "defaultConfiguration": "development"

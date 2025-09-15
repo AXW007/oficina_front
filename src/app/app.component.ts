@@ -18,5 +18,5 @@ import { MatMenuModule } from '@angular/material/menu';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'barbearia-front';
+  title = 'oficina-front';
 }

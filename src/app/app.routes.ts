@@ -6,5 +6,5 @@ import { CadastrarClienteComponent } from './components/cadastrar-cliente/cadast
 export const routes: Routes = [
     {path: 'buscar-clientes', component: BuscarClientesComponent},
     {path: 'cadastrar-cliente', component: CadastrarClienteComponent},
-    {path: '', redirectTo: '/buscar-clientes', pathMatch: 'full'},
+    {path: '', redirectTo: '/buscar-clientes.component', pathMatch: 'full'},
 ];
